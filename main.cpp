@@ -1,10 +1,11 @@
-#include "mainwindow.h"
+#include "ceshi.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    ceshi w;
+    w.setWindowTitle("haha");
     w.show();
 
     return a.exec();

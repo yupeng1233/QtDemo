@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-11-21T15:00:35
+# Project created by QtCreator 2019-11-21T16:22:43
 #
 #-------------------------------------------------
 
@@ -8,13 +8,13 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 111
+TARGET = ceshi
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        ceshi.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += ceshi.h
 
-FORMS    += mainwindow.ui
+FORMS    += ceshi.ui
